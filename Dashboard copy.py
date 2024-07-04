@@ -3,8 +3,6 @@ import pandas as pd
 import yfinance as yf
 import matplotlib.pyplot as plt
 import streamlit as st
-from keras.models import load_model, Sequential
-from keras.layers import Dense, LSTM
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 from scipy.optimize import minimize
@@ -13,7 +11,6 @@ from datetime import datetime
 import alpaca_trade_api as tradeapi
 import joblib
 from trading_models import moving_average_crossover, bollinger_bands, relative_strength_index, sma_mean_reversion, combine_model_outputs, random_forest_predictions
-
 
 # Alpaca API credentials (replace with your own)
 ALPACA_API_KEY = 'PKVGHKG5MBR1NFE0MWZ9'
