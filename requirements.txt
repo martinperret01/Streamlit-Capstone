@@ -1,0 +1,14 @@
+numpy
+pandas
+yfinance
+matplotlib
+streamlit
+keras
+scipy
+plotly
+joblib
+pandas_datareader
+fredapi
+scikit-learn
+alpaca-trade-api
+altair
